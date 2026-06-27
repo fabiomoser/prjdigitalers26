@@ -1,0 +1,26 @@
+# Configuración inicial
+git config --global user.name "nombre_usuario"
+git config --global user.email "correo@dominio.com"
+
+# Ver configuración
+git config --global --list
+
+# Comandos
+git init (inicializar el repositorio)
+
+git status (ver estado del proyecto)
+
+# Para pasar al staging area
+git add archivo.txt # Añade un arch específico
+
+git add . # Añade todo
+
+git add -A # Añade todo (incluido los arch. borrados)
+
+# Para crear el SnapShot (foto, versión)
+git commit -m "Mensaje claro y en presente" (forma simple)
+
+# Para ver el historial
+git log --online
+git log --oneline --graph --all
+git log -p
