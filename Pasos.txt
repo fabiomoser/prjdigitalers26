@@ -20,6 +20,8 @@ git add -A # Añade todo (incluido los arch. borrados)
 # Para crear el SnapShot (foto, versión)
 git commit -m "Mensaje claro y en presente" (forma simple)
 
+git commit (ingresa al IDE-> i - para insertar texto, al finalizar, ESC, :wq)
+
 # Para ver el historial
 git log --online
 git log --oneline --graph --all
