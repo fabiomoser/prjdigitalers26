@@ -26,3 +26,31 @@ git commit (ingresa al IDE-> i - para insertar texto, al finalizar, ESC, :wq)
 git log --online
 git log --oneline --graph --all
 git log -p
+
+RAMAS
+git branch <nombre_rama> (crea la rama)
+git checkout <nombre_rama> (posiciona)
+
+git checkout -b <nombre_rama_2> (hace los 2 pasos enteriores)
+
+..trabajamos sobre la rama...
+
+# Unir las ramas:
+git checkout <master> (nos posicionamos en master)
+git merge <nombre_rama>
+
+# Eliminar la rama
+git branch -d <nombre_rama>
+
+# Subir a repositorio externo (Github)
+# Paso inicial (primera vez)
+git remote add origin <url_dell_repo>
+
+# Renombrar la rama del git local de  master a main
+git branch -M main
+
+git push -u origin main
+
+
+
+
