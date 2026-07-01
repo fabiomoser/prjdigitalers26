@@ -51,6 +51,7 @@ git branch -M main
 
 git push -u origin main
 
-
-
+# Actualizar los cambios de commits en el repo externo
+git pull origin main
+git push origin main
 
